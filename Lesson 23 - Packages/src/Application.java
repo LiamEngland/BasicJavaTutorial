@@ -9,8 +9,8 @@ import ocean.plants.Kelp;
 public class Application {
 
 	public static void main(String[] args) {
-		Fish fish1 = new Fish();
-		Seaweed weed1 = new Seaweed();
+		new Fish();
+		new Seaweed();
+		new Kelp();
 	}
-
 }
