@@ -42,7 +42,7 @@ public class Application {
         // machine2.capture();
 
 
-        // Do-wncasting
+        // Down-casting
 
         Machine machine3 = new Camera();
         Camera camera2 = (Camera)machine3;
