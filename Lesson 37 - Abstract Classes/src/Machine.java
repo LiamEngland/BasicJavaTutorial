@@ -15,7 +15,7 @@ public abstract class Machine {
         this.id = id;
     }
 
-    // Force all child classes to implents this method, without machine being able to use it.
+    // Force all child classes to implements this method, without machine being able to use it.
     public abstract void start();
     public abstract void work();
     public abstract void stop();
